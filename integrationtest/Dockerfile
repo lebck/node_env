@@ -1,7 +1,7 @@
-FROM node:lts-alpine
+FROM node:slim
 
 RUN apt-get update && \
-  apt-get install -y \
+    apt-get install -y \
     libgtk2.0-0 \
     libnotify-dev \
     libgconf-2-4 \
