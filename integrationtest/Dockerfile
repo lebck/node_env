@@ -1,4 +1,4 @@
-FROM node:slim
+FROM docker/compose:1.25.0-rc1-alpine
 
 RUN apt-get update && \
     apt-get install -y \
@@ -9,3 +9,4 @@ RUN apt-get update && \
     libxss1 \
     libasound2 \
     xvfb
+
