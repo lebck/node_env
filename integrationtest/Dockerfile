@@ -10,4 +10,4 @@ RUN apt-get update && \
         libasound2 \
         xvfb
 
-RUN apt-get install ps
+RUN apt-get install -y procps
