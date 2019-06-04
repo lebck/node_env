@@ -9,3 +9,5 @@ RUN apt-get update && \
         libxss1 \
         libasound2 \
         xvfb
+
+RUN apt-get install ps
